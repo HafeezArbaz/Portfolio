@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div className='mb-4'>
               <FaMapMarkedAlt className='inline-block text-green-400 mr-2' />
-              <span> Street, city, country</span>
+              <span> Hyderabad, India</span>
             </div>
           </div>
 

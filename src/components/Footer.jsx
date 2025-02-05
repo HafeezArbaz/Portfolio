@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
@@ -7,14 +7,10 @@ const Footer = () => {
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="flex flex-col md:flex-row md:space-x-12 items-center mb-4">
           <div className="flex-1 mb-4 md:mb-0">
-            <h3 className="text-2xl font-bold mb-2">Hafeez Arbaz</h3>
-            <p className="text-gray-400">
-              Full-Stack Developer based in the USA, specializing in web and
-              software development.
-            </p>
+            {/* <h3 className="text-2xl font-bold mb-2">Hafeez Arbaz</h3> */}
           </div>
           <div className="flex-1 w-full">
-            <form className="flex items-center justify-center">
+            {/* <form className="flex items-center justify-center">
               <input
                 type="email"
                 placeholder="Your email"
@@ -28,7 +24,7 @@ const Footer = () => {
               >
                 Subscribe
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
 
