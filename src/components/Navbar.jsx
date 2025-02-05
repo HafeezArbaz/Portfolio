@@ -11,8 +11,7 @@ const Navbar = () => {
         <div className="flex space-x-6 flex-grow justify-center">
           <a href="Home" className="text-white hover:text-gray-400">Home</a>
           <a href="About" className="text-white hover:text-gray-400">About Me</a>
-          <a href="Services" className="text-white hover:text-gray-400">Services</a>
-          <a href="Project" className="text-white hover:text-gray-400">Project</a>
+          <a href="Service" className="text-white hover:text-gray-400">Service</a>
           <a href="Contact" className="text-white hover:text-gray-400">Contact</a>
         </div>
 
@@ -26,3 +25,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

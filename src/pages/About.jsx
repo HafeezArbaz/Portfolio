@@ -5,7 +5,6 @@ const About = () => {
   return (
     <div className='bg-black text-white min-h-screen w-screen flex justify-center items-center' id='About'>
       <div className='container mx-auto px-8 md:px-16 lg:px-24'>
-        <h2 className='text-4xl font-bold text-center mb-12'>About Me</h2>
         <div className='flex flex-col md:flex-row items-center md:space-x-12'>
           <img src={aboutmeimg} alt="" className='w-80 h-80 rounded object-cover mb-8 md:mb-0 transform transition-transform duration-300 hover:scale-105'/>
           <div className='flex-1'>
@@ -17,7 +16,7 @@ const About = () => {
          </p>
          <div className='space-y-4'>
           <div className='flex items-center'>
-            <label htmlFor='htmlandcss' className='w-2/12'>HTML & CSS</label>
+            <label htmlFor='htmlandcss' className='w-2/12'>Python</label>
             <div className=' grow bg-gray-800 rounded-full h-2.5'>
               <div className='bg-gradient-to-r from bg-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-10/12'>
               </div>
@@ -47,13 +46,13 @@ const About = () => {
           </div>
           <div>
             <h3 className=' text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-              50+
+              3+
             </h3>
             <p>Projects Completed</p>
           </div>
           <div>
             <h3 className=' text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-              10+
+              3+
             </h3>
             <p>Happy Clients</p>
           </div>
